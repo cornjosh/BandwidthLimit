@@ -29,4 +29,4 @@ wondershaper -a $eth -d 286720 -u 286720
 cd ~
 rm -rf wondershaper
 echo "#################################"
-echo "安装完成！"
+echo "安装完成"
