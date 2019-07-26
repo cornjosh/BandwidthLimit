@@ -6,7 +6,6 @@ echo "##########################################"
 echo "#       Ucloud服务优化一键脚本            ##"
 echo "#       请使用root权限运行                ##"
 echo "##########################################"
-sleep 1
 if [ -f "/usr/bin/apt-get" ];then
 	apt-get update && apt-get -y install git make;
 else
