@@ -9,7 +9,7 @@ echo "##########################################"
 if [ -f "/usr/bin/apt-get" ];then
 	apt-get update && apt-get -y install git make;
 else
-	yum update && yum -y -t install git make;
+	yum -y -t install git make;
 fi
 cd ~
 git clone  https://github.com/magnific0/wondershaper.git
