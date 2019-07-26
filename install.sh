@@ -16,7 +16,8 @@ git clone  https://github.com/magnific0/wondershaper.git
 cd wondershaper
 make install
 dir=`which wondershaper`
-if [ $dir == "" ];then
+if [ $dir ！= "/usr/bin/wondershaper" ];then
+	echo "#############################"
 	echo "安装异常，请稍后再试"
 	exit 1;
 fi
